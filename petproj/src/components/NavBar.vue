@@ -33,7 +33,7 @@
           <RouterLink class="nav-link active" to="/about">About</RouterLink>
         </li>
       </ul>
-      <RouterLink to="/donate" class="btn btn-primary">Donate</RouterLink>
+        <RouterLink to="/donate" class="btn btn-primary">Donate</RouterLink>
     </div>
   </div>
 </nav>
