@@ -4,6 +4,7 @@ import About from '../components/About.vue';
 import Donate from '../components/Donate.vue';
 import Resources from '../components/Resources.vue';
 import Volunteer from '../components/Volunteer.vue';
+import Adopt from "../components/Adopt.vue";
 
 const router = createRouter({
     history: createWebHashHistory(),
@@ -12,6 +13,13 @@ const router = createRouter({
             path: '/',
             name: 'home',
             component: Home 
+        },
+
+        {
+            path: '/adopt',
+            name: 'adopt',
+            component: Adopt
+            
         },
 
         {

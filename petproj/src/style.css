@@ -1,8 +1,9 @@
 body {
-    background-image: url('./assets/img/robert.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: gray;
-  }
+  background-image: url('./assets/img/dog.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
   
