@@ -4,18 +4,16 @@
 
 <template>
    <div class="container text-center ">
-        <div class="row ">
-            <div class=" col col-lg-6   ">
-                <h2 class=" title text-warning">Find Your Perfect Pet Companion Today !</h2>
+        <div class="row justify-content-center  ">
+            <div class=" col col-md-8 py-2 ">
+                <h2 class=" title text-warning py-1">Find Your Perfect Pet Buddy Today!</h2>
                 <h6 class=" text-subject  text-black">Discover adorable pets waiting to brighten your life. 
-                  Explore a wide range of healthy and happy companions from trusted breeders and shelters.
-
                 </h6>
             </div>
         </div>
-        <div class="d-flex  buttons ">
-          <RouterLink to="/adopt" class="btn btn-primary btn-lg text-center my-4 me-3">Adopt</RouterLink>
-          <RouterLink to="/donate" class="btn btn-outline-primary btn-lg text-center my-4">Donate</RouterLink>
+        <div class="d-flex  buttons justify-content-center">
+          <RouterLink to="/adopt" class="btn btn-primary btn-lg text-center me-3">Adopt</RouterLink>
+          <RouterLink to="/donate" class="btn btn-outline-primary btn-lg text-center ">Donate</RouterLink>
         </div>
     </div>
     /* Footer section *\
@@ -31,15 +29,10 @@
 <style scoped>
   
   .container {
-   
-    margin-bottom: 18%;
-    background-image: url('../assets/img/dognew.png');
-    background-repeat: no-repeat;
-    background-size: cover;
     height:100vh;
     width:100vw;
-    background-color: gray;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 15%;
   }
 
     .title {
@@ -56,81 +49,64 @@
     @media (min-width: 1024px)  {
     .container {
       
-      text-align: left;
+      text-align: center;
       
     }
     .title {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-weight: bold;
-      width: 90%;
-      text-align: start;
+      
+      text-align: center;
       font-size: 50px;
     }
 
     .text-subject {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
-      text-align: start;
-      width: 65%;
+      text-align: center;
       font-size: 22px;
     }
 
     .buttons {
-      text-align: start;
-     
-      max-width: 80%;
+      text-align: center;
     }
   }
 
   @media (max-width: 430px)  {
-    .container {
-      background-size:contain;
-      margin-right: 35%;
-      
-    }
+   
     .title {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-weight: bold;
-      width: 73%;
-      text-align: start;
+      text-align: center;
       
     }
 
     .text-subject {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
-      text-align: start;
-      width: 53%;
+      text-align: center;
     }
 
     .buttons {
-      text-align: start;
-     
-      max-width: 60%;
+      text-align: center;
     }
   }
 
   @media (min-width: 768px) and (max-width: 982px) {
-    .container {
-      height: fit-content;
-      margin-right: 17%;
-      
-    }
+  
     .title {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-weight: bold;
-      width: 60%;
-      text-align: start;
+      text-align: center;
+      font-size: 40px;
     }
 
     .text-subject {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
-      text-align: start;
-      width: 50%;
+      text-align: center;
+     
     }
 
     .buttons {
-      text-align: start;
-     
-      max-width: 50%;
+      text-align: center;
     }
   }
 
@@ -138,28 +114,24 @@
     @media (min-width: 660px)  {
     .container {
       
-      text-align: left;
+      text-align: center;
       
     }
     .title {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-weight: bold;
-      width: 70%;
-      text-align: start;
-      font-size: 50px;
+      text-align: center;
+      font-size: 40px;
     }
 
     .text-subject {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
-      text-align: start;
-      width: 65%;
+      text-align: center;
       font-size: 22px;
     }
 
     .buttons {
-      text-align: start;
-     
-      max-width: 80%;
+      text-align: center;
     }
   }
 </style>
