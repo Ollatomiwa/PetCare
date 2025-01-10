@@ -27,7 +27,7 @@ export default {
 
 <template>
  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" data-bs-theme="dark">
-  <div class="container-fluid w-100">
+  <div class="container-fluid">
     <a class="navbar-brand fw-bolder text-warning" href="#">Pet-Care</a>
     <button
       class="navbar-toggler"
@@ -67,7 +67,4 @@ export default {
 </template>
 <style scoped>
 
-.navbar {
-  border-width: 40%;
-}
 </style>
