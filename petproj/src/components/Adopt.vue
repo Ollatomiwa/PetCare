@@ -20,17 +20,17 @@
       <div class="col-md-4">
         <div class="card border-5">
             <h3 class="card-title ">Does He Deserve a Chance?</h3>
-            <img :src="cat" class="card-img-top" alt="Image 1" />
+            <img :src="cat" class="card-img-top" alt="Swartzer" />
           <div class="card-body">
-            <h4> Help us save Swarter from the streets. He deserves a loving home.</h4> 
-            <button class="btn btn-warning btn-lg">DONATE</button>
+            <h4> Help us save Swartzer from the streets. He deserves a loving home.</h4> 
+            <button class="btn btn-warning btn-lg">Adopt Swartzer</button>
           </div>
         </div>
       </div>
-      <div class="col-md-4 big-dog">
-        <div class="card border-35">
+      <div class="col-md-4">
+        <div class="card border-5">
             <h3 class="card-title ">Does He Deserve a Chance?</h3>
-          <img :src="dog" class="card-img-top" alt="Image 2" />
+          <img :src="dog" class="card-img-top" alt="Hunky" />
           <div class="caraged-body">
             <h4> Help us save Hunky from the streets. He deserves a loving home.</h4> 
             <button class="btn btn-warning btn-lg mb-3">Adopt Hunky</button>
@@ -40,7 +40,7 @@
       <div class="col-md-4">
         <div class="card border-5">
             <h3 class="card-title ">Does He Deserve a Chance?</h3>  
-          <img :src="dog2" class="card-img-top" alt="Image 3" />
+          <img :src="dog2" class="card-img-top" alt="Floritz" />
           <div class="card-body">
             <h4> Help us save Floritz from the streets. He deserves a loving home.</h4> 
             <button class="btn btn-warning">Adopt Floritz</button>
