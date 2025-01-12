@@ -56,7 +56,7 @@ const dog2 = ref(floritz);
         </div>
       </div>
     </div>
-  </div>
+    </div>
      <!-- Adopt-Section Content -->
 
      <!-- Footer -->
