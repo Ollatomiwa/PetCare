@@ -3,7 +3,7 @@
 
 
 import imgCat from '../assets/img/straydogs.jfif';
-import veganism from '../assets/img/veganism.jfif';
+import veganism from '../assets/img/Veganism.jfif';
 
 
 
