@@ -93,7 +93,7 @@ const dog2 = ref(floritz);
         <div class="col-12 col-md-4 mb-3">
           <h5>Contact</h5>
           <p class="mb-1">
-            121-123 Ogunlana Drive, Lagos, Nigeria
+            121-123 High Drive, Lagos, Nigeria
           </p>
           <p class="mb-1">
             Email: <RouterLink to="mailto:computlifecom@gmail.com" class="text-light text-decoration-none">computlifecom@gmail.com</RouterLink>
