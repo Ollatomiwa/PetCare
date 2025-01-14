@@ -51,7 +51,7 @@
   </div>
   <!-- Adopt-Section Content -->
 
-  <footer class="bg-dark text-light py-4">
+  <footer class="bg-dark text-light py-4 mt-3">
     <div class="container">
       <!-- Footer Content -->
       <div class="row text-center text-md-start">
@@ -70,11 +70,12 @@
         </div>
 
         <!-- Quick Links -->
-        <div class="col-12 col-md-4 mb-3">
+        <div class="col-12 col-md-4">
           <h5>Quick Links</h5>
           <ul class="list-unstyled">
-            <li><RouterLink to="/about" class=" text-decoration-none d-block mb-1 text-warning">About Us</RouterLink></li>
+            <li><RouterLink to="/about" class=" text-decoration-none d-block mb-1 text-warning">About</RouterLink></li>
             <li><RouterLink to="/donate" class=" text-decoration-none d-block mb-1 text-warning">Donate</RouterLink></li>
+            <li><RouterLink to="/adopt" class=" text-decoration-none d-block mb-1 text-warning">Adopt</RouterLink></li>
             <li><RouterLink to="/resources" class="text-decoration-none d-block mb-1 text-warning">Resources </RouterLink></li>
             <li><RouterLink to="/volunteers" class=" text-decoration-none d-block text-warning">Volunteers</RouterLink></li>
           </ul>
