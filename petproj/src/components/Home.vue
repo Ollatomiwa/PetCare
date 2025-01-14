@@ -82,7 +82,7 @@ const dog2 = ref(floritz);
         <div class="col-12 col-md-4 mb-3">
           <h5>Quick Links</h5>
           <ul class="list-unstyled">
-            <li><RouterLink to="/about" class=" text-decoration-none d-block mb-1 text-warning">About Us</RouterLink></li>
+            <li><RouterLink to="/about" class=" text-decoration-none d-block mb-1 text-warning">About</RouterLink></li>
             <li><RouterLink to="/donate" class=" text-decoration-none d-block mb-1 text-warning">Donate</RouterLink></li>
             <li><RouterLink to="/resources" class="text-decoration-none d-block mb-1 text-warning">Resources </RouterLink></li>
             <li><RouterLink to="/volunteers" class=" text-decoration-none d-block text-warning">Volunteers</RouterLink></li>
