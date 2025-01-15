@@ -33,7 +33,7 @@ const logo = ref(logos);
       <div class="card mb-3">
         <div class="card-body">
           <div class="d-flex align-items-center">
-            <img :src="logo" alt="" class="bg-dark me-3" style="width:50%; height:auto; object-fit:cover; border-radius:5%;">
+            <img :src="logo" alt="" class="bg-dark me-3" style="width:40%; height:auto; object-fit:cover; border-radius:5%;">
             <div>
               <h5 class="card-title text-center">FINDING A DOG</h5>
               <p class="card-text text-center text-primary">Where Can You Adopt A Dog?</p>
@@ -46,7 +46,7 @@ const logo = ref(logos);
       <div class="card mb-3">
         <div class="card-body">
           <div class="d-flex align-items-center">
-            <img :src="logo" alt="" class="bg-dark me-3" style="width:50%; height:auto; object-fit:cover; border-radius:5%;">
+            <img :src="logo" alt="" class="bg-dark me-3" style="width:40%; height:auto; object-fit:cover; border-radius:5%;">
             <div>
               <h5 class="card-title text-center">FINDING A DOG</h5>
               <p class="card-text text-center text-primary">How to Adopt A Dog: Step-by-Step Guide?</p>
@@ -59,7 +59,7 @@ const logo = ref(logos);
       <div class="card mb-3">
         <div class="card-body">
           <div class="d-flex align-items-center">
-            <img :src="logo" alt="" class="bg-dark me-3" style="width:50%; height:auto; object-fit:cover; border-radius:5%;">
+            <img :src="logo" alt="" class="bg-dark me-3" style="width:40%; height:auto; object-fit:cover; border-radius:5%;">
             <div>
               <h5 class="card-title text-center">YOUR NEW DOG</h5>
               <p class="card-text text-center text-primary">How To Introduce A New Dog</p>
@@ -79,7 +79,7 @@ const logo = ref(logos);
       <div class="card mb-3">
         <div class="card-body">
           <div class="d-flex align-items-center">
-            <img :src="logo" alt="" class="bg-dark me-3" style="width:50%; height:auto; object-fit:cover; border-radius:5%;">
+            <img :src="logo" alt="" class="bg-dark me-3" style="width:40%; height:auto; object-fit:cover; border-radius:5%;">
             <div>
               <h5 class="card-title text-center">AFFENPINSCHER</h5>
               <p class="card-text text-center text-primary">The Affenpinscher is a sturdy and lovely toy.</p>
@@ -92,7 +92,7 @@ const logo = ref(logos);
       <div class="card mb-3">
         <div class="card-body">
           <div class="d-flex align-items-center">
-            <img :src="logo" alt="" class="bg-dark me-3" style="width:50%; height:auto; object-fit:cover; border-radius:5%;">
+            <img :src="logo" alt="" class="bg-dark me-3" style="width:40%; height:auto; object-fit:cover; border-radius:5%;">
             <div>
               <h5 class="card-title text-center">AFGHAN HOUND</h5>
               <p class="card-text text-center text-primary">The Beauty Queen of The Dog World.</p>
@@ -105,7 +105,7 @@ const logo = ref(logos);
       <div class="card mb-3">
         <div class="card-body">
           <div class="d-flex align-items-center">
-            <img :src="logo" alt="" class="bg-dark me-3" style="width:50%; height:auto; object-fit:cover; border-radius:5%;">
+            <img :src="logo" alt="" class="bg-dark me-3" style="width:40%; height:auto; object-fit:cover; border-radius:5%;">
             <div>
               <h5 class="card-title text-center">AIREDALE TERRIER</h5>
               <p class="card-text text-center text-primary">As The Largest Terrier Breed, The Airedale...</p>
@@ -117,9 +117,9 @@ const logo = ref(logos);
   </div>
 </div>
 
-<!-- Repeat the same structure for other sections like Dogs Behaviour, Health & Wellness, Training, and Feeding -->
 
-<!-- Example: Dog Training -->
+
+<!-- Dog Training -->
 <div class="container">
   <h1 class="mt-3">Dogs Training</h1>
   <div class="row">
@@ -127,7 +127,7 @@ const logo = ref(logos);
       <div class="card mb-3">
         <div class="card-body">
           <div class="d-flex align-items-center">
-            <img :src="logo" alt="" class="bg-dark me-3" style="width:50%; height:auto; object-fit:cover; border-radius:5%;">
+            <img :src="logo" alt="" class="bg-dark me-3" style="width:40%; height:auto; object-fit:cover; border-radius:5%;">
             <div>
               <h5 class="card-title text-center">OBEDIENCE TRAINING</h5>
               <p class="card-text text-center text-primary">How to Stop Dog from Jumping</p>
@@ -140,7 +140,7 @@ const logo = ref(logos);
       <div class="card mb-3">
         <div class="card-body">
           <div class="d-flex align-items-center">
-            <img :src="logo" alt="" class="bg-dark me-3" style="width:50%; height:auto; object-fit:cover; border-radius:5%;">
+            <img :src="logo" alt="" class="bg-dark me-3" style="width:40%; height:auto; object-fit:cover; border-radius:5%;">
             <div>
               <h5 class="card-title text-center">SOCIALIZING</h5>
               <p class="card-text text-center text-primary">Pet-Friendly Hotel Etiquette</p>
@@ -153,7 +153,7 @@ const logo = ref(logos);
       <div class="card mb-3">
         <div class="card-body">
           <div class="d-flex align-items-center">
-            <img :src="logo" alt="" class="bg-dark me-3" style="width:50%; height:auto; object-fit:cover; border-radius:5%;">
+            <img :src="logo" alt="" class="bg-dark me-3" style="width:40%; height:auto; object-fit:cover; border-radius:5%;">
             <div>
               <h5 class="card-title text-center">OBEDIENCE TRAINING</h5>
               <p class="card-text text-center text-primary">When Your Dog Won't Come When Called</p>

@@ -18,41 +18,40 @@ const man = ref(veganism);
   <div class="container">
     <div class="row text-center mt-5 justify-content-center">
       <div class="col-md-8">
-        <div class="card border-2"> 
-            <h1 class="card-title text-primary fw-bold ">Does He Deserve a Chance?</h1>
+        <div class="card border-5 bg-secondary">   
+            <h1 class="card-title text-black fw-bold ">Does He Deserve a Chance?</h1>
             <img :src="cat" class="card-img-top" alt="Image 1" />
           <div class="card-body">
-            <h4 class="text-primary fw-bold "> Help Vulnerable Animals Now </h4> 
+            <h4 class="text-black fw-bold "> Help Vulnerable Animals Now </h4> 
             <button class="btn btn-warning btn-lg">DONATE</button>
           </div>
         </div>
       </div> 
       
       <div class="col-md-8 my-4">
-        <div class="card border-5">
-            <h3 class="card-title text-primary fw-bold ">Can't Adopt Now?</h3>
-            <h4 class="text-primary fw-bold "> Contribute By Wearing Your Love For Animals Instead!</h4>
+        <div class="card border-5 bg-secondary">  
+            <h4 class="text-black fw-bold "> Contribute By Wearing Your Love For Animals Instead!</h4>
             <img :src="man" class="card-img-top" alt="Image 2" />
           <div class="card-body">
             <button class="btn btn-warning btn-lg mb-3 mt-4">Shop Now</button>
           </div>
         </div>
       </div>
-      <div class="col-md-12 mb-3">
-        <div class="card border-5 ">
-            <h2 class="card-title text-black fw-bold  text-start  ">Other Ways to Help: </h2>  
-            <RouterLink to="#" class="text-warning text-start d-block mb-1 text-decoration-none">
-              <h3>Become a Monthly Member <i class="bi bi-arrow-right fs-3"></i></h3>
-          </RouterLink>
-          <RouterLink to="#" class="text-warning text-start d-block mb-1 text-decoration-none">
-              <h3>Advocate For Animals <i class="bi bi-arrow-right fs-3"></i></h3>
-          </RouterLink> <RouterLink to="#" class="text-warning text-start d-block mb-1 text-decoration-none">
-             <h3>Volunteer or Foster <i class="bi bi-arrow-right fs-3"></i></h3>
-          </RouterLink>
-          
-            
-        </div>
-      </div>
+    </div>
+  </div>
+  <div class="col-md-12 mb-3 px-3">
+    <div class="card border-5 px-3 bg-secondary"> ">
+        <h2 class="card-title text-black fw-bold text-start  ">Other Ways to Help: </h2>  
+        <RouterLink to="#" class="text-warning text-start d-block mb-1 text-decoration-none">
+          <h4>Become a Monthly Member <i class="bi bi-arrow-right fs-3"></i></h4>
+      </RouterLink>
+      <RouterLink to="#" class="text-warning text-start d-block mb-1 text-decoration-none">
+          <h4>Advocate For Animals <i class="bi bi-arrow-right fs-3"></i></h4>
+      </RouterLink> <RouterLink to="#" class="text-warning text-start d-block mb-1 text-decoration-none">
+         <h4>Volunteer or Foster <i class="bi bi-arrow-right fs-3"></i></h4>
+      </RouterLink>
+      
+        
     </div>
   </div>
   <!-- Donate-Section Content -->
@@ -109,3 +108,15 @@ const man = ref(veganism);
     </div>
   </footer>
 </template>
+
+<style scoped>
+  .card:hover {
+    transform: scale(1.02);
+    transition: transform 0.8s;
+    border-color: #FFD700;
+  }
+
+.text-light:hover {
+    color: #FFD700; /* Change to your desired hover color */
+  }
+</style>
