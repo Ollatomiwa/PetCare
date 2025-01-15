@@ -60,10 +60,10 @@ const dog2 = ref(floritz);
      <!-- Adopt-Section Content -->
 
      <!-- Footer -->
-  <footer class="bg-dark text-light py-4">
+  <footer class="bg-dark text-light ">
     <div class="container">
       <!-- Footer Content -->
-      <div class="row text-center text-md-start">
+      <div class="row text-center text-md-start pt-5">
            <!-- Social Media Links -->
            <div class="col-12 col-md-4 mb-3">
           <h5>Follow Us</h5>
@@ -106,8 +106,8 @@ const dog2 = ref(floritz);
 
       <!-- Footer Bottom -->
       <hr class="border-light">
-      <div class="text-center">
-        <p class="mb-0">&copy; 2025 Pet-Care. All Rights Reserved.</p>
+      <div class="text-center ">
+        <p class="mb-0 pb-3">&copy; 2025 Pet-Care. All Rights Reserved.</p>
       </div>
     </div>
   </footer>
