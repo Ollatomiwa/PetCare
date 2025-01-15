@@ -35,7 +35,7 @@ const dog2 = ref(floritz);
         <div class="card border-0">
           <img :src="cat" class="card-img-top" alt="Image 1">
           <div class="card-body">
-            <button class="btn btn-warning btn-lg">Adopt Swarter</button>
+            <button class="btn btn-warning btn-lg">Swarter Needs a Home</button>
           </div>
         </div>
       </div>
@@ -43,7 +43,7 @@ const dog2 = ref(floritz);
         <div class="card border-0">
           <img :src="dog" class="card-img-top" alt="Image 2">
           <div class="caraged-body">
-            <button class="btn btn-warning btn-lg mb-3">Adopt Hunky</button>
+            <button class="btn btn-warning btn-lg mb-3"> Hunky  Needs a Home</button>
           </div>
         </div>
       </div>
@@ -51,7 +51,7 @@ const dog2 = ref(floritz);
         <div class="card border-0">
           <img :src="dog2" class="card-img-top" alt="Image 3">
           <div class="card-body">
-            <button class="btn btn-warning">Adopt Floritz</button>
+            <button class="btn btn-warning">Floritz  Needs a Home</button>
           </div>
         </div>
       </div>
@@ -132,6 +132,11 @@ const dog2 = ref(floritz);
       font-size: 10px;      
     }
    
+    .card:hover {
+    transform: scale(1.02);
+    transition: transform 0.8s;
+    border-color: #140881a6;
+  }
 
     @media (min-width: 1024px)  {
     .container {
