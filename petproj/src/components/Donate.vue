@@ -14,24 +14,24 @@ const man = ref(veganism);
 </script>
 
 <template>
-  <!-- Donstr-Section Content -->
+  <!-- Donate-Section Content -->
   <div class="container">
-    <div class="row text-center mt-5">
-      <div class="col-md-12">
-        <div class="card border-5 bg-black"> 
-            <h1 class="card-title text-light fw-bold ">Does He Deserve a Chance?</h1>
+    <div class="row text-center mt-5 justify-content-center">
+      <div class="col-md-8">
+        <div class="card border-2"> 
+            <h1 class="card-title text-primary fw-bold ">Does He Deserve a Chance?</h1>
             <img :src="cat" class="card-img-top" alt="Image 1" />
           <div class="card-body">
-            <h4 class="text-light fw-bold "> Help Vulnerable Animals Now </h4> 
+            <h4 class="text-primary fw-bold "> Help Vulnerable Animals Now </h4> 
             <button class="btn btn-warning btn-lg">DONATE</button>
           </div>
         </div>
       </div> 
       
-      <div class="col-md-12 my-4">
-        <div class="card border-5 bg-black">
-            <h3 class="card-title text-light fw-bold ">Can't Adopt Now?</h3>
-            <h4 class="text-light fw-bold "> Contribute By Wearing Your Love For Animals Instead!</h4>
+      <div class="col-md-8 my-4">
+        <div class="card border-5">
+            <h3 class="card-title text-primary fw-bold ">Can't Adopt Now?</h3>
+            <h4 class="text-primary fw-bold "> Contribute By Wearing Your Love For Animals Instead!</h4>
             <img :src="man" class="card-img-top" alt="Image 2" />
           <div class="card-body">
             <button class="btn btn-warning btn-lg mb-3 mt-4">Shop Now</button>
@@ -39,8 +39,8 @@ const man = ref(veganism);
         </div>
       </div>
       <div class="col-md-12 mb-3">
-        <div class="card border-5 bg-black">
-            <h2 class="card-title text-light fw-bold  text-start  ">Other Ways to Help: </h2>  
+        <div class="card border-5 ">
+            <h2 class="card-title text-black fw-bold  text-start  ">Other Ways to Help: </h2>  
             <RouterLink to="#" class="text-warning text-start d-block mb-1 text-decoration-none">
               <h3>Become a Monthly Member <i class="bi bi-arrow-right fs-3"></i></h3>
           </RouterLink>
@@ -82,7 +82,7 @@ const man = ref(veganism);
             <li><RouterLink to="/about" class=" text-decoration-none d-block mb-1 text-warning">About</RouterLink></li>
             <li><RouterLink to="/donate" class=" text-decoration-none d-block mb-1 text-warning">Donate</RouterLink></li>
             <li><RouterLink to="/resources" class="text-decoration-none d-block mb-1 text-warning">Resources </RouterLink></li>
-            <li><RouterLink to="/volunteers" class=" text-decoration-none d-block text-warning">Volunteers</RouterLink></li>
+            <li><RouterLink to="/volunteer" class=" text-decoration-none d-block text-warning">Volunteers</RouterLink></li>
           </ul>
         </div>
 
@@ -93,7 +93,7 @@ const man = ref(veganism);
             121-123 High Drive, Lagos, Nigeria
           </p>
           <p class="mb-1">
-            Email: <RouterLink to="mailto:computlifecom@gmail.com" class="text-light text-decoration-none">computlifecom@gmail.com</RouterLink>
+            Email: <RouterLink to="#" class="text-light text-decoration-none">computlifecom@gmail.com</RouterLink>
           </p>
           <p>
             Phone: +234 812 630 7855

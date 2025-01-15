@@ -85,7 +85,7 @@ const dog2 = ref(floritz);
             <li><RouterLink to="/about" class=" text-decoration-none d-block mb-1 text-warning">About</RouterLink></li>
             <li><RouterLink to="/donate" class=" text-decoration-none d-block mb-1 text-warning">Donate</RouterLink></li>
             <li><RouterLink to="/resources" class="text-decoration-none d-block mb-1 text-warning">Resources </RouterLink></li>
-            <li><RouterLink to="/volunteers" class=" text-decoration-none d-block text-warning">Volunteers</RouterLink></li>
+            <li><RouterLink to="/volunteer" class=" text-decoration-none d-block text-warning">Volunteers</RouterLink></li>
           </ul>
         </div>
 
@@ -96,7 +96,7 @@ const dog2 = ref(floritz);
             121-123 High Drive, Lagos, Nigeria
           </p>
           <p class="mb-1">
-            Email: <RouterLink to="mailto:computlifecom@gmail.com" class="text-light text-decoration-none">computlifecom@gmail.com</RouterLink>
+            Email: <RouterLink to="#" class="text-light text-decoration-none">computlifecom@gmail.com</RouterLink>
           </p>
           <p>
             Phone: +234 812 630 7855
