@@ -1,4 +1,9 @@
 <script setup>
+import { ref } from 'vue';
+
+import logos from '../assets/img/logo.png';
+
+const logo = ref(logos);
 
 </script>
 
@@ -28,7 +33,7 @@
             <div class="card-body">
                 <div class="d-flex align-items-center">
                     <!--image section-->
-                    <img src="" alt="" srcset="" class="bg-dark me-3" style="width:70%; height:auto; border-radius: 5px;
+                    <img :src="logo" alt="" srcset="" class="bg-dark me-3" style="width:65%; height:auto; border-radius: 5px;
                     object-fit: cover; border-radius: 5%">
                     <!--Text section-->
                     <div>
@@ -43,7 +48,7 @@
             <div class="card-body">
                 <div class="d-flex align-items-center">
                     <!--image section-->
-                    <img src="" alt="" srcset="" class="bg-dark me-3" style="width:70%; height:auto; border-radius: 5px;
+                    <img :src="logo" alt="logo" srcset="" class="bg-dark me-3" style="width:65%; height:auto; border-radius: 5px;
                     object-fit: cover; border-radius: 5%;">
                     <!--Text section-->
                     <div>
@@ -58,7 +63,7 @@
             <div class="card-body">
                 <div class="d-flex align-items-center">
                     <!--image section-->
-                    <img src="" alt="" srcset="" class="bg-dark me-3" style="width:70%; height:auto; border-radius: 5px;
+                    <img :src="logo" alt="logo" srcset="" class="bg-dark me-3" style="width:65%; height:auto; border-radius: 5px;
                     object-fit: cover; border-radius: 5%;">
                     <!--Text section-->
                     <div>
@@ -68,7 +73,6 @@
                 </div>
             </div>
         </div>
-
     </div>
 
     <!--Dog Breeds-->
@@ -78,7 +82,7 @@
             <div class="card-body">
                 <div class="d-flex align-items-center">
                     <!--image section-->
-                    <img src="" alt="" srcset="" class="bg-dark me-3" style="width:70%; height:auto; border-radius: 5px;
+                    <img :src="logo" alt="" srcset="" class="bg-dark me-3" style="width:70%; height:auto; border-radius: 5px;
                     object-fit: cover; border-radius: 5%">
                     <!--Text section-->
                     <div>
@@ -93,7 +97,7 @@
             <div class="card-body">
                 <div class="d-flex align-items-center">
                     <!--image section-->
-                    <img src="" alt="" srcset="" class="bg-dark me-3" style="width:70%; height:auto; border-radius: 5px;
+                    <img :src="logo" alt="" srcset="" class="bg-dark me-3" style="width:70%; height:auto; border-radius: 5px;
                     object-fit: cover; border-radius: 5%;">
                     <!--Text section-->
                     <div>
@@ -108,7 +112,7 @@
             <div class="card-body">
                 <div class="d-flex align-items-center">
                     <!--image section-->
-                    <img src="" alt="" srcset="" class="bg-dark me-3" style="width:70%; height:auto; border-radius: 5px;
+                    <img :src="logo" alt="" srcset="" class="bg-dark me-3" style="width:70%; height:auto; border-radius: 5px;
                     object-fit: cover; border-radius: 5%;">
                     <!--Text section-->
                     <div>
@@ -118,7 +122,6 @@
                 </div>
             </div>
         </div>
-
     </div>
 
     <!--Dogs Behaviour-->
@@ -128,7 +131,7 @@
             <div class="card-body">
                 <div class="d-flex align-items-center">
                     <!--image section-->
-                    <img src="" alt="" srcset="" class="bg-dark me-3" style="width:70%; height:auto; border-radius: 5px;
+                    <img :src="logo" alt="" srcset="" class="bg-dark me-3" style="width:70%; height:auto; border-radius: 5px;
                     object-fit: cover; border-radius: 5%">
                     <!--Text section-->
                     <div>
@@ -143,7 +146,7 @@
             <div class="card-body">
                 <div class="d-flex align-items-center">
                     <!--image section-->
-                    <img src="" alt="" srcset="" class="bg-dark me-3" style="width:70%; height:auto; border-radius: 5px;
+                    <img :src="logo" alt="" srcset="" class="bg-dark me-3" style="width:70%; height:auto; border-radius: 5px;
                     object-fit: cover; border-radius: 5%">
                     <!--Text section-->
                     <div>
@@ -158,7 +161,7 @@
             <div class="card-body">
                 <div class="d-flex align-items-center">
                     <!--image section-->
-                    <img src="" alt="" srcset="" class="bg-dark me-3" style="width:70%; height:auto; border-radius: 5px;
+                    <img :src="logo" alt="" srcset="" class="bg-dark me-3" style="width:70%; height:auto; border-radius: 5px;
                     object-fit: cover; border-radius: 5%;">
                     <!--Text section-->
                     <div>
@@ -178,7 +181,7 @@
             <div class="card-body">
                 <div class="d-flex align-items-center">
                     <!--image section-->
-                    <img src="" alt="" srcset="" class="bg-dark me-3" style="width:40%; height:auto; border-radius: 5px;
+                    <img :src="logo" alt="" srcset="" class="bg-dark me-3" style="width:30%; height:auto; border-radius: 5px;
                     object-fit: cover; border-radius: 5%">
                     <!--Text section-->
                     <div>
@@ -193,7 +196,7 @@
             <div class="card-body">
                 <div class="d-flex align-items-center">
                     <!--image section-->
-                    <img src="" alt="" srcset="" class="bg-dark me-3" style="width:40%; height:auto; border-radius: 5px;
+                    <img :src="logo" alt="" srcset="" class="bg-dark me-3" style="width:30%; height:auto; border-radius: 5px;
                     object-fit: cover; border-radius: 5%;">
                     <!--Text section-->
                     <div>
@@ -208,7 +211,7 @@
             <div class="card-body">
                 <div class="d-flex align-items-center">
                     <!--image section-->
-                    <img src="" alt="" srcset="" class="bg-dark me-3" style="width:40%; height:auto; border-radius: 5px;
+                    <img :src="logo" alt="" srcset="" class="bg-dark me-3" style="width:30%; height:auto; border-radius: 5px;
                     object-fit: cover; border-radius: 5%;">
                     <!--Text section-->
                     <div>
@@ -228,7 +231,7 @@
             <div class="card-body">
                 <div class="d-flex align-items-center">
                     <!--image section-->
-                    <img src="" alt="" srcset="" class="bg-dark me-3" style="width:70%; height:auto; border-radius: 5px;
+                    <img :src="logo" alt="" srcset="" class="bg-dark me-3" style="width:50%; height:auto; border-radius: 5px;
                     object-fit: cover; border-radius: 5%">
                     <!--Text section-->
                     <div>
@@ -243,7 +246,7 @@
             <div class="card-body">
                 <div class="d-flex align-items-center">
                     <!--image section-->
-                    <img src="" alt="" srcset="" class="bg-dark me-3" style="width:70%; height:auto; border-radius: 5px;
+                    <img :src="logo" alt="" srcset="" class="bg-dark me-3" style="width:50%; height:auto; border-radius: 5px;
                     object-fit: cover; border-radius: 5%;">
                     <!--Text section-->
                     <div>
@@ -258,7 +261,7 @@
             <div class="card-body">
                 <div class="d-flex align-items-center">
                     <!--image section-->
-                    <img src="" alt="" srcset="" class="bg-dark me-3" style="width:70%; height:auto; border-radius: 5px;
+                    <img :src="logo" alt="" srcset="" class="bg-dark me-3" style="width:50%; height:auto; border-radius: 5px;
                     object-fit: cover; border-radius: 5%;">
                     <!--Text section-->
                     <div>
@@ -270,14 +273,14 @@
         </div>
 
     </div>
-    <!--Feed Your Dog-->
+    <!--Feeding Your Dog-->
     <h1 class="mt-3">Feeding Your Dog</h1>
     <div class="col col-md-12">
         <div class="card mb-3">
             <div class="card-body">
                 <div class="d-flex align-items-center">
                     <!--image section-->
-                    <img src="" alt="" srcset="" class="bg-dark me-3" style="width:70%; height:auto; border-radius: 5px;
+                    <img :src="logo" alt="" srcset="" class="bg-dark me-3" style="width:50%; height:auto; border-radius: 5px;
                     object-fit: cover; border-radius: 5%">
                     <!--Text section-->
                     <div>
@@ -292,7 +295,7 @@
             <div class="card-body mb-2">
                 <div class="d-flex align-items-center">
                     <!--image section-->
-                    <img src="" alt="" srcset="" class="bg-dark me-3" style="width:70%; height:auto; border-radius: 5px;
+                    <img :src="logo" alt="" srcset="" class="bg-dark me-3" style="width:50%; height:auto; border-radius: 5px;
                     object-fit: cover; border-radius: 5%;">
                     <!--Text section-->
                     <div>
@@ -307,7 +310,7 @@
             <div class="card-body">
                 <div class="d-flex align-items-center">
                     <!--image section-->
-                    <img src="" alt="" srcset="" class="bg-dark me-3" style="width:70%; height:auto; border-radius: 5px;
+                    <img :src="logo" alt="" srcset="" class="bg-dark me-3" style="width:50%; height:auto; border-radius: 5px;
                     object-fit: cover; border-radius: 5%;">
                     <!--Text section-->
                     <div>
