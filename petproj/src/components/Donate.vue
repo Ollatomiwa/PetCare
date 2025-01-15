@@ -113,10 +113,6 @@ const man = ref(veganism);
   .card:hover {
     transform: scale(1.02);
     transition: transform 0.8s;
-    border-color: #FFD700;
-  }
-
-.text-light:hover {
-    color: #FFD700; /* Change to your desired hover color */
+    border-color: #140881a6;
   }
 </style>

@@ -16,8 +16,8 @@
 <template>
   <!-- Adopt-Section Content -->
   <div class="container">
-    <div class="row text-center mt-5">
-      <div class="col-md-4">
+    <div class="row text-center mt-5 ">
+      <div class="col-md-4 mb-3">
         <div class="card border-5">
             <h3 class="card-title ">Does He Deserve a Chance?</h3>
             <img :src="cat" class="card-img-top" alt="Swartzer" />
@@ -28,7 +28,7 @@
         </div>
       </div>
       <div class="col-md-4">
-        <div class="card border-5">
+        <div class="card border-5 mb-3">
             <h3 class="card-title ">Does He Deserve a Chance?</h3>
           <img :src="dog" class="card-img-top" alt="Hunky" />
           <div class="caraged-body">
@@ -38,7 +38,7 @@
         </div>
       </div>
       <div class="col-md-4">
-        <div class="card border-5">
+        <div class="card border-5 mb-3">
             <h3 class="card-title ">Does He Deserve a Chance?</h3>  
           <img :src="dog2" class="card-img-top" alt="Floritz" />
           <div class="card-body">
@@ -104,3 +104,11 @@
     </div>
   </footer>
 </template>
+<style scoped>
+  .card:hover {
+    transform: scale(1.02);
+    transition: transform 0.8s;
+    border-color: #140881a6;
+  }
+
+</style>

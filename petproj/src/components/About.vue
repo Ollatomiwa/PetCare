@@ -12,7 +12,7 @@ const logo = ref(logos);
     <div class="row justify-content-md-center">
         <div class="col col-md-8">
             <h1 class="mt-3">Dogs & Puppies</h1>
-            <p class="text-center text-primary">
+            <p class="text-center subject">
               Welcome to our Dogs & Puppies articles, your one-stop resource for all
               things canine!. Whether you need training tips, advice on keeping your
               dog healthy and happy or information on finding a dog for adopton. we
@@ -222,7 +222,17 @@ const logo = ref(logos);
 </template>
 
 <style scoped>
-p {
+.subject {
     font-size: large;
+    color: blue;
+    font-weight: bold;
+    font-family: serif;
 }
+
+ .card:hover {
+    transform: scale(1.04);
+    transition: transform 0.8s;
+    border-color: #140881a6;
+  }
+
 </style>
