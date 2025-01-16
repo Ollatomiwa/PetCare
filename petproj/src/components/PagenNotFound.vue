@@ -1,10 +1,10 @@
 <template>
     <section>
         <div class="heading">
-            <h1>HELLO?</h1>
+            <h1>OOPS!</h1>
         </div>
         <div class="content">
-            <h2>Looks like you're lost in the woods </h2>
+            <h2>Looks like you're lost😦    </h2>
             <a href="#">Take Me Home</a>
         </div>
     </section>

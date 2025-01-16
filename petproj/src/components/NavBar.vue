@@ -1,5 +1,6 @@
 <script>
 import { ref, onMounted } from "vue";
+import { RouterLink } from "vue-router";
 
 export default {
   setup() {
@@ -36,7 +37,7 @@ export default {
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark" data-bs-theme="dark">
     <div class="container-fluid">
-      <a class="navbar-brand fw-bolder text-warning" href="#">Pet-Care</a>
+      <RouterLink class="navbar-brand fw-bolder text-warning" to="/">Pet-Care</RouterLink>
       <button
         class="navbar-toggler"
         type="button"
@@ -48,25 +49,19 @@ export default {
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse justify-content-center my-8 mx-8" id="navbarNav">
+      <div class="collapse navbar-collapse justify-content-center my-8 mx-8 " id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <RouterLink class="nav-link active" to="/" @click="closeNavbar">Home</RouterLink>
+            <RouterLink class="nav-link active me-3" to="/" @click="closeNavbar">Home</RouterLink>
           </li>
           <li class="nav-item">
-            <RouterLink class="nav-link active" to="/adopt" @click="closeNavbar">Adopt</RouterLink>
+            <RouterLink class="nav-link active me-3" to="/adopt" @click="closeNavbar">Adopt</RouterLink>
           </li>
           <li class="nav-item">
-            <RouterLink class="nav-link active" to="/volunteer" @click="closeNavbar">Volunteer</RouterLink>
-          </li>
-          <li class="nav-item">
-            <RouterLink class="nav-link active" to="/resources" @click="closeNavbar">Resources</RouterLink>
-          </li>
-          <li class="nav-item">
-            <RouterLink class="nav-link active" to="/about" @click="closeNavbar">About</RouterLink>
+            <RouterLink class="nav-link active me-3" to="/about" @click="closeNavbar">About</RouterLink>
           </li>
         </ul>
-        <RouterLink to="/donate" @click="closeNavbar" class="btn btn-primary">Donate</RouterLink>
+        <RouterLink to="/donate" @click="closeNavbar" class="btn btn-primary ">Donate</RouterLink>
       </div>
     </div>
   </nav>
