@@ -1,7 +1,7 @@
 <template>
     <section>
         <div class="heading">
-            <h1>Error 404</h1>
+            <h1>HELLO?</h1>
         </div>
         <div class="content">
             <h2>Looks like you're lost in the woods </h2>
@@ -19,12 +19,12 @@
     body {
         margin:0;
         min-height:100vh;
-        font-family:sans-serif 'Red Hat Display' ;
+        font-family: 'Red Hat Display' sans-serif ;
         background: #eee;
     }
     section {
         height: 100vh;
-        background-image: url(../assets/img/Image1.jpg);
+        background-image: url(../assets/img/image2.png);
         background-size: cover;
         animation: bg 1,5s ease-in-out;
         overflow: hidden;
@@ -40,15 +40,13 @@
         text-align: center;
         padding: 3em 1em;
         color:'#fff';
-    }
+ }
 
-    .content h2, .content p {
-        margin:0;
-    }
+
 
     .content h2 {
         font-family: Arial, Helvetica, sans-serif;
-        margin: 0.3em 0 3em 0;
+        margin: 0.1em 0 3em 0;
         color: #dbdbdb;
     }
 
@@ -56,7 +54,7 @@
         color: #000;
         text-decoration: none;
         background:#fff;
-        padding: 0.7em 2em;
+        padding: 0.4em 2em;
         border-radius: 3em;
         transition: 0.4s;
     }
@@ -82,7 +80,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        background: url(../assets/img/image.png) no-repeat center;
+        background: url(../assets/img/image1.png) no-repeat center;
         background-size: cover;
         animation: bg2 1.5s ease-in-out;
         overflow: hidden;
