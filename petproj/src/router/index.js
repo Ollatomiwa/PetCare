@@ -5,6 +5,7 @@ import Donate from '../components/Donate.vue';
 import Resources from '../components/Resources.vue';
 import Volunteer from '../components/Volunteer.vue';
 import Adopt from "../components/Adopt.vue";
+import PagenNotFound from "../components/PagenNotFound.vue";
 
 const router = createRouter({
     history: createWebHashHistory(),
@@ -45,6 +46,12 @@ const router = createRouter({
             path: '/volunteer',
             name: 'volunteer',
             component: Volunteer
+        },
+
+        {
+            path: '/:pathMatch(.*)*',
+            name: 'pagenotfound',
+            component: PagenNotFound
         },
 
 
