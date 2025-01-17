@@ -6,8 +6,6 @@ Features
 
 Adoption Page: Browse pets available for adoption and give them a loving home. 
 Donation Page: Contribute to providing medical care and resources for stray animals. 
-Volunteer Page: Sign up to help stray pets in your community. 
-Resources Page: Check essential supplies needed to care for pets. 
 About Page: Learn about our mission and impact on improving the lives of stray pets. Technologies Used
 
 Vue.js 3 + Vite (Composition API): The core JavaScript framework used to build the application. Tailwind CSS: For building a sleek and responsive UI design. Installation
@@ -22,7 +20,4 @@ Open your browser and navigate to your vue local host address to view the websit
 
 Donate: Support stray animals by donating funds or medical supplies through the donation page. 
 Adopt: Find your perfect furry companion and start the adoption process. 
-Volunteer: Offer your time and skills to help stray animals in need. 
-Resources: Learn about essential supplies and tips for caring for pets. Contributing
-
 Contributions are welcome! If you have suggestions, improvements, or bug fixes, feel free to open an issue or create a pull request.
