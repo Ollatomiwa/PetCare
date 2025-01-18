@@ -14,10 +14,11 @@ Vue.js 3 + Vite (Composition API): The core JavaScript framework used to build t
 
 Clone the repository: git clone https://github.com/ollatomiwa/petcare.git
 cd petcare
-Install dependencies: npm install
+Install dependencies: npm install: includes: bootstrap, bootstrap-icons
 Start the development server: npm run dev
 Open your browser and navigate to your vue local host address to view the website. Usage
 
-Donate: Support stray animals by donating funds or medical supplies through the donation page. 
+Donate: Support stray animals by donating funds or supports to stop Animal cruelty 
 Adopt: Find your perfect furry companion and start the adoption process. 
+About: Check out ways to help your pets and undestands the way your pet acts.
 Contributions are welcome! If you have suggestions, improvements, or bug fixes, feel free to open an issue or create a pull request.
